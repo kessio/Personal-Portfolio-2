@@ -5,12 +5,13 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
+/* Header section Large screen styling */
 .header{
     height: 1434px;
     width:100%;
     background-image: url(images/Header-llustration-desktop@2x.png);
     background-size: contain;
-  background-repeat: no-repeat;
+   background-repeat: no-repeat;
    
 }
 .menu-list {
@@ -24,4 +25,32 @@
 .list-items a {
     text-decoration: none;
     color: #172B4D
+}
+.mobile-nav{
+    /*Do  not display mobile navigation on large devices */
+    display: none;
+}
+
+/* Header section small screen styling */
+@media only screen and (max-width: 600px) {
+    nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header{
+    width:630px;
+    height: 648px;
+    top: 98.12px;
+    left: -126.38px;
+    background-image: url(images/header-illsutration-mobile@2x.png);
+    background-repeat: no-repeat;
+    }
+    
+    .mobile-logo {
+ 
+    }
+
 }

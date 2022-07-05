@@ -1,4 +1,10 @@
-
+* {
+    margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
 .header{
     height: 1434px;
     width:100%;
@@ -14,4 +20,8 @@
 .list-items {
     padding: 20px;
     list-style: none;
+}
+.list-items a {
+    text-decoration: none;
+    color: #172B4D
 }

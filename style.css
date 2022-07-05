@@ -1,0 +1,17 @@
+
+.header{
+    height: 1434px;
+    width:100%;
+    background-image: url(images/Header-llustration-desktop@2x.png);
+    background-size: contain;
+  background-repeat: no-repeat;
+   
+}
+.menu-list {
+    display: flex;
+    justify-content: center;
+}
+.list-items {
+    padding: 20px;
+    list-style: none;
+}
